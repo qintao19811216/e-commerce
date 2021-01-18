@@ -5,7 +5,35 @@
 @import 'variables';
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+//@import '~bootstrap/scss/bootstrap';
+
+//admin-lte
+//@import "~admin-lte/dist/css/adminlte.min.css";
+
+@import '~admin-lte/plugins/select2/css/select2.min.css';
+@import '~admin-lte/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css';
+
+@import "~admin-lte/plugins/icheck-bootstrap/icheck-bootstrap.min.css";
+
+@import '~admin-lte/plugins/sweetalert2/sweetalert2.min.css';
+
+@import '~admin-lte/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css';
+
+//@import '~admin-lte/plugins/daterangepicker/daterangepicker.css';
+
+
+//@import '~bower_components/bootstrap/dist/css/bootstrap.min.css';
+//@import '~bower_components/font-awesome/css/font-awesome.min.css';
+//@import '~bower_components/Ionicons/css/ionicons.min.css';
+//@import '~dist/css/AdminLTE.min.css';
+//@import '~dist/css/skins/_all-skins.min.css';
+
+//@import '~bower_components/morris.js/morris.css';
+//@import '~bower_components/jvectormap/jquery-jvectormap.css';
+//@import '~bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css';
+//@import '~bower_components/bootstrap-daterangepicker/daterangepicker.css';
+//@import '~admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css';
+
 
 // Fontawesome
 @import '~@fortawesome/fontawesome-free/scss/fontawesome';

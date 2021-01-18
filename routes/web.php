@@ -17,7 +17,11 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', 'Screen\PagesController@root')->name('root');
+Route::get('/', 'Screen\PagesController@app')->name('app');
+/*Route::group(['middleware' => 'auth','prefix'=>'screens','namespace'=>'Screen'], function() {
+    Route::get('/', 'PagesController@root')->name('root');
+});*/
+Route::get('/root', 'Screen\PagesController@root')->name('root');
 /*Route::group(['middleware' => 'auth','prefix'=>'screens','namespace'=>'Screen'], function() {
     Route::get('/', 'PagesController@root')->name('root');
 });*/
